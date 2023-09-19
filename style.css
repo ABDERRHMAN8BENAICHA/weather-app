@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Recursive', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #05283c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.continer {
+    padding: 5px 5px 15px;
+    width: 370px;
+    min-height: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: 0.4s;
+    overflow: hidden;
+}   
+.continer header {
+    padding: 10px 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.continer i:first-of-type {
+    font-size: 25px;
+}
+.continer input {
+    width: 80%;
+    height: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: transparent;
+}
+.continer input::placeholder {
+    color: #05283c;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.continer input:focus{
+    outline: none;
+}
+.continer i:last-of-type {
+    font-size: 20px;
+    background-color: #e0f3ff;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+main {
+    padding: 10px;
+}
+.imgs{
+    width: 220px;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;    
+}
+.imgs img{
+    width: 100%;
+}
+main .head .info  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+main .head .info .mine-temp {
+    font-size: 50px;
+}
+main .head .info .mine-temp sup{
+    font-size: 20px;
+    position: relative;
+    top: -25px;
+}
+main .head .info .mine-temp sup::before{
+    position: absolute;
+    content: "o";
+    top: 5px;
+    left: -7px;
+    font-size: 10px;
+}
+
+.foter {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.foter .foter-mine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.hidden {
+    display: none;
+}
+
+
+
